@@ -22,7 +22,7 @@ export default function PostPage(props: PageProps<Post>) {
             day: "numeric"
           })}
       </time>
-      <div class="mt-8">
+      <div class="mt-8 prose">
         <Markdown children={post.content} />
       </div>
     </main>
